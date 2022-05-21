@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="navbar.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div id="hometab"><a href="index.html">Home</a></div>
+      <div id="lpage">
+        <button onclick="signup()">SignUp</button>
+        <button onclick="signin()">SignIn</button>
+      </div>
+    </nav>
+    <div id="login-form-div">
+      <!--Write form input elements here-->
+      <form id="form2">
+        <h2>Welcome Back</h2>
+        <p>Enter Email :</p>
+        <input id="em1" placeholder="Enter Email" type="email" />
+        <p>Enter Passward :</p>
+        <input id="pass1" placeholder="Enter Passward" type="password" />
+        <input id="log" type="submit" value="Log In" />
+        <div id="new">
+          Need An Account ? <a href="signup.html"> Create Account Here!</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+<script src="login.js"></script>
+<script src="navbar.js"></script>

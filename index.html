@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="hometab"><a href="index.html">Home</a></div>
+      <div id="lpage">
+        <button onclick="signup()">SignUp</button>
+        <button onclick="signin()">SignIn</button>
+      </div>
+    </nav>
+    <div id="slideshow">
+      <!--Show Slideshow here-->
+      Click here To Start Slide Show
+    </div>
+    <div id="sbutton">
+      <button onclick="startshow()">Start</button>
+      <button onclick="pauseshow()">Pause</button>
+    </div>
+    <div id="sort-buttons">
+      <p>Sort Movies According to IMDB Ratings</p>
+      <select id="sortmov">
+        <option value="">Select Rating</option>
+        <option value="ac">High to Low</option>
+        <option value="dc">Low to High</option>
+      </select>
+
+      <!--Add sorting here-->
+    </div>
+    <div id="movies">
+      <!--Show list of movies here-->
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
+<script src="navbar.js"></script>

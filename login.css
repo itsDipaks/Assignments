@@ -1,0 +1,39 @@
+#form2{
+      width: 30%;
+      height:auto;
+
+padding: 20px 30px 20px 20px;
+      border: 1px solid black;
+      margin: auto;
+      margin-top: 100px;
+      background-color: black;
+      border-radius: 10px;
+     
+}
+#form2>input{
+      width: 100%;
+      margin-top: 20px;
+      padding: 5px;
+}
+h2{
+      text-align: center;
+      color: white;
+}
+#log{
+      margin-bottom: 20px;
+}
+#form2>div{
+      /* border: 1px solid red; */
+      text-align: center;
+      color: white;
+  
+}
+#form2>div>a{
+      text-decoration: none;
+      color: red;
+}
+form>p{
+      color: white;
+      margin-bottom: -10px;
+      font-size: 12px;
+}

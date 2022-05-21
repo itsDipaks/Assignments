@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="navbar.css">
+
+</head>
+<body>
+      <nav id="navbar">
+            <div id="hometab"><a href="index.html">Home</a> </div>
+            <div id="lpage">
+                  <button onclick="signup()">SignUp</button>
+                  <button onclick="signin()">SignIn</button>
+            </div>
+             </nav>
+      <div>
+            <input type="text" id="url">
+            
+            <button onclick="storeimg()">Store Image</button>
+            <button onclick="watchshow()">Watch Slideshow</button>
+      </div>
+</body>
+</html>
+<script>
+   
+      function storeimg(){
+         let input1=document.querySelector("#url").value  //getting image input from user
+  
+         let images=JSON.parse(localStorage.getItem("image"))|| []  
+  
+         images.push(input1) //pushing inputs into the images array
+  
+         localStorage.setItem("image",JSON.stringify(images)) //setting array in local storage using name
+  
+         document.querySelector("#url").value=null
+  
+  
+      }
+  
+      function watchshow(){
+            window.location.href="index.html"
+  
+      }
+  </script>
+  <script src="navbar.js"></script>
