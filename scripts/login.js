@@ -24,8 +24,4 @@ function loginfunction(){
       else if(savedata.pass!=logindataobject.pass2){
             alert("Enter right passward")
       }
-      
-      
-      
-
 }
