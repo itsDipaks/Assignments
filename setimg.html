@@ -6,6 +6,26 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
       <link rel="stylesheet" href="navbar.css">
+      <style>
+#arrange{
+      /* border: 1px solid #000; */
+      width: 35%;
+      margin: auto;
+      margin-top: 50px;
+      height: 30px;
+}
+#arrange>input{
+      height: 80%;
+}
+#arrange>button{
+      height: 100%;
+      width: 100px;
+      margin-left: 10px;
+      /* border: 1px solid #000; */
+      background-color: black;
+      color: white;
+}
+      </style>
 
 </head>
 <body>
@@ -16,11 +36,11 @@
                   <button onclick="signin()">SignIn</button>
             </div>
              </nav>
-      <div>
-            <input type="text" id="url">
+      <div id="arrange">
+            <input type="text" id="url" placeholder="Enter image url Here : ">
             
             <button onclick="storeimg()">Store Image</button>
-            <button onclick="watchshow()">Watch Slideshow</button>
+            <button onclick="watchshow()">Slideshow</button>
       </div>
 </body>
 </html>

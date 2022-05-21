@@ -126,6 +126,9 @@ function sortvaluesfunc(){
 
       }
 }
+function storedimg(){
+      window.location.href="setimg.html"
+}
 
 
 

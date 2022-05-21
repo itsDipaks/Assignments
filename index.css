@@ -15,7 +15,17 @@
   height: 400px;
   border-radius: 20px;
 }
-
+#slidelocation{
+      margin: auto;
+      width: 30%;
+      margin-top: 20px;
+}
+#slidelocation>button{
+      margin-left: 100px;
+      border: 1px solid #000;
+      height: 25px;
+      margin-top: 10px;
+}
 #sort-buttons {
   margin: auto;
   width: 50%;
